@@ -1,0 +1,57 @@
+﻿生成启动时间为 2014/2/19 22:50:30。
+     1>项目“D:\0.0 Code\2.0 MyCode\PacketParse\build\demo.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (..\obj\) contains files shared from another project (libparse.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\obj\\" /Fd"..\obj\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\demo\getopt.cc ..\demo\logModule.cc ..\demo\ParseDemo.cc
+         ParseDemo.cc
+     1>d:\0.0 code\2.0 mycode\packetparse\src\rtcpnet.h(35): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>d:\0.0 code\2.0 mycode\packetparse\src\rtcpnet.h(52): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\parsedemo.cc(62): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\parsedemo.cc(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\parsedemo.cc(172): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\parsedemo.cc(189): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(254) : 参见“strlwr”的声明
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\parsedemo.cc(195): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(254) : 参见“strlwr”的声明
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\parsedemo.cc(197): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(254) : 参见“strlwr”的声明
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\parsedemo.cc(199): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(254) : 参见“strlwr”的声明
+         logModule.cc
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\logmodule.cc(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\logmodule.cc(29): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\logmodule.cc(31): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337) : 参见“vsnprintf”的声明
+     1>d:\0.0 code\2.0 mycode\packetparse\demo\logmodule.cc(23): warning C4101: “file_path”: 未引用的局部变量
+         getopt.cc
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\lib\demo.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib libparse.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\lib\demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\lib\demo.lib" /MACHINE:X86 ..\obj\getopt.obj
+         ..\obj\logModule.obj
+         ..\obj\ParseDemo.obj
+         "D:\0.0 Code\2.0 MyCode\PacketParse\lib\libparse.lib"
+     1>libparse.lib(Buffer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(Buffer.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(EtherNet.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(EtherNet.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(IpNet.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(IpNet.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(Packet.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(Packet.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(PacketArray.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(PacketArray.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(PcapFile.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(PcapFile.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(Protocol.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(Protocol.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(RtcpNet.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(RtcpNet.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(RtpNet.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(RtpNet.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(StringHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(StringHelper.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libparse.lib(UdpNet.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libparse.lib(UdpNet.obj)”或在“D:\0.0 Code\2.0 MyCode\PacketParse\lib\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         demo.vcxproj -> D:\0.0 Code\2.0 MyCode\PacketParse\build\..\lib\demo.exe
+     1>已完成生成项目“D:\0.0 Code\2.0 MyCode\PacketParse\build\demo.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.15

@@ -1,0 +1,49 @@
+﻿生成启动时间为 2014/2/19 22:50:29。
+     1>项目“D:\0.0 Code\2.0 MyCode\PacketParse\build\libparse.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (..\obj\) contains files shared from another project (demo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\obj\\" /Fd"..\obj\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Buffer.cc ..\src\EtherNet.cc ..\src\IpNet.cc ..\src\Packet.cc ..\src\PacketArray.cc ..\src\PcapFile.cc ..\src\Protocol.cc ..\src\RtcpNet.cc ..\src\RtpNet.cc ..\src\StringHelper.cc ..\src\UdpNet.cc
+         UdpNet.cc
+     1>d:\0.0 code\2.0 mycode\packetparse\src\rtcpnet.h(35): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>d:\0.0 code\2.0 mycode\packetparse\src\rtcpnet.h(52): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+         StringHelper.cc
+         RtpNet.cc
+         RtcpNet.cc
+     1>d:\0.0 code\2.0 mycode\packetparse\src\rtcpnet.h(35): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>d:\0.0 code\2.0 mycode\packetparse\src\rtcpnet.h(52): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+         Protocol.cc
+         PcapFile.cc
+         PacketArray.cc
+         Packet.cc
+     1>d:\0.0 code\2.0 mycode\packetparse\src\rtcpnet.h(35): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>d:\0.0 code\2.0 mycode\packetparse\src\rtcpnet.h(52): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+         IpNet.cc
+         EtherNet.cc
+         Buffer.cc
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\libparse.lib" /NOLOGO ..\obj\Buffer.obj
+         ..\obj\EtherNet.obj
+         ..\obj\IpNet.obj
+         ..\obj\Packet.obj
+         ..\obj\PacketArray.obj
+         ..\obj\PcapFile.obj
+         ..\obj\Protocol.obj
+         ..\obj\RtcpNet.obj
+         ..\obj\RtpNet.obj
+         ..\obj\StringHelper.obj
+         ..\obj\UdpNet.obj
+         libparse.vcxproj -> D:\0.0 Code\2.0 MyCode\PacketParse\build\..\lib\libparse.lib
+     1>已完成生成项目“D:\0.0 Code\2.0 MyCode\PacketParse\build\libparse.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.88

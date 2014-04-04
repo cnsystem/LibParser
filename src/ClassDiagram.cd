@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Buffer">
+    <Position X="2.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAggAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAABUQAA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EtherNet">
+    <Position X="0.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAgAASgACBAEAAAAEAAAAQCAAAAAAAEAAAAAAAQQAA=</HashCode>
+      <FileName>EtherNet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IpNet">
+    <Position X="2.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>FEAgAASRAAQAEAAAIEAAAEACBAABAAAAAAAAAAAQAMg=</HashCode>
+      <FileName>IpNet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Packet">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQgAAQAEAAAAAABJEAAAAAAQAgAAQBIACBQAAIAAGA=</HashCode>
+      <FileName>Packet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PcapFile">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAQAAAAAYAAAAEAAAACgAAIQAAAABABAAAEAAAA=</HashCode>
+      <FileName>PcapFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Protocol">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AASgIACAAAAAAAAgAERIAMBSAgABAAEIAAABAAABAAg=</HashCode>
+      <FileName>Protocol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RtpNet">
+    <Position X="6.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CgAgABSAQBAAAAAAIEAACQACAgEAQAAAACABAAAAAQA=</HashCode>
+      <FileName>RtpNet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringHelper">
+    <Position X="0.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAQAAAAAAAIABAAAAAAAABA=</HashCode>
+      <FileName>StringHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UdpNet">
+    <Position X="4.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAATIAAAAAAAABEAABAACAAAAAAAAAAAEAAAAAAg=</HashCode>
+      <FileName>UdpNet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketArray">
+    <Position X="2.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAwAEAAAAABAAAAAAAQAAAAAAAAAAQQAAAAwA=</HashCode>
+      <FileName>PacketArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="SelectPacket" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketArray.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
