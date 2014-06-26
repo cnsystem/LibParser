@@ -59,7 +59,7 @@ float ComputeBandwidth(PacketArray* arr)
 	uint32 last_time = 0;
 	float packet_size = 0;
 	uint32 current_time = 0;
-	for(int i = 0; i < arr->GetCount(); i++)
+	for(uint32 i = 0; i < arr->GetCount(); i++)
 	{
 		Packet* p = arr->GetPacketByIndex(i);
 		packet_size += p->GetDataLength();
@@ -128,6 +128,7 @@ void ParsePacpFile(PcapFile* file)
 	for(int i = 0; i < sizeof(options) / sizeof(app_option); i++) \
 	printf("    -%c: %s\n", options[i].opt_name, options[i].opt_desc);\
 } while(0)
+
 int main(int argc, char* argv[])
 {
 	int ch;  
